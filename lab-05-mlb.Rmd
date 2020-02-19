@@ -1,0 +1,51 @@
+---
+title: "Lab 05 - MLB Wins"
+subtitle: "Due: Friday, Feb 21 at 11:59pm"
+author: "Lab Group - Member 1, Member 2, Member 3, Member 4"
+output:
+  pdf_document: default
+  html_document: default
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE, comment = NA, 
+                      message = FALSE, warning = FALSE,
+                      fig.height=6, fig.width = 9, fig.align = "center")
+```
+
+## Packages
+
+```{r packages}
+library(tidyverse)
+library(ggpol)
+library(broom)
+```
+
+## Data
+
+```{r load_data}
+teams_default <- read_csv("data/teams.csv")
+```
+
+## Tasks
+
+#### Task 1
+
+```{r task_1}
+
+```
+
+
+
+
+
+
+
+
+#### Task 5
+
+Below is a template for how you can write math notation in your Rmd file.
+You'll need to fill in the coefficient estimates from your fitted linear
+model and the corresponding variable names.
+
+$$\widehat{\mbox{y-variable}} = b0 + b1~\mbox{x-variable}$$
