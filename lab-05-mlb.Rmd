@@ -49,3 +49,5 @@ You'll need to fill in the coefficient estimates from your fitted linear
 model and the corresponding variable names.
 
 $$\widehat{\mbox{y-variable}} = b0 + b1~\mbox{x-variable}$$
+
+## References
